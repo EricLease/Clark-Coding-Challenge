@@ -5,6 +5,8 @@ using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
+using ClarkCodingChallenge.DataAccess;
+using ClarkCodingChallenge.BusinessLogic;
 
 namespace ClarkCodingChallenge
 {
@@ -29,6 +31,8 @@ namespace ClarkCodingChallenge
 
 
             services.AddMvc().SetCompatibilityVersion(CompatibilityVersion.Version_3_0);
+            services.AddSingleton<IContactsRepository, ContactsRepository>();
+            services.AddScoped<IContactsService, ContactsService>();
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.

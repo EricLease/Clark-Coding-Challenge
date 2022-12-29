@@ -1,31 +1,31 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\slieffers\\Source\\Repos\\Coding-Challenge\\ClarkCodingChallenge\\ClarkCodingChallenge.csproj": {}
+    "C:\\Users\\eric\\source\\repos\\ClarkCodingChallenge\\Coding-Challenge\\ClarkCodingChallenge\\ClarkCodingChallenge.csproj": {}
   },
   "projects": {
-    "C:\\Users\\slieffers\\Source\\Repos\\Coding-Challenge\\ClarkCodingChallenge\\ClarkCodingChallenge.csproj": {
+    "C:\\Users\\eric\\source\\repos\\ClarkCodingChallenge\\Coding-Challenge\\ClarkCodingChallenge\\ClarkCodingChallenge.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\slieffers\\Source\\Repos\\Coding-Challenge\\ClarkCodingChallenge\\ClarkCodingChallenge.csproj",
+        "projectUniqueName": "C:\\Users\\eric\\source\\repos\\ClarkCodingChallenge\\Coding-Challenge\\ClarkCodingChallenge\\ClarkCodingChallenge.csproj",
         "projectName": "ClarkCodingChallenge",
-        "projectPath": "C:\\Users\\slieffers\\Source\\Repos\\Coding-Challenge\\ClarkCodingChallenge\\ClarkCodingChallenge.csproj",
-        "packagesPath": "C:\\Users\\slieffers\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\slieffers\\Source\\Repos\\Coding-Challenge\\ClarkCodingChallenge\\obj\\",
+        "projectPath": "C:\\Users\\eric\\source\\repos\\ClarkCodingChallenge\\Coding-Challenge\\ClarkCodingChallenge\\ClarkCodingChallenge.csproj",
+        "packagesPath": "C:\\Users\\eric\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\eric\\source\\repos\\ClarkCodingChallenge\\Coding-Challenge\\ClarkCodingChallenge\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
         ],
         "configFilePaths": [
-          "C:\\Users\\slieffers\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\eric\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "netcoreapp3.1"
         ],
         "sources": {
-          "https://nuget.org": {},
-          "https://tfs.clarkinc.biz/DefaultCollection/_packaging/c2aa131e-9bf5-4fdf-9bbe-81bcda5b3920/nuget/v3/index.json": {}
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "netcoreapp3.1": {
@@ -42,6 +42,12 @@
       "frameworks": {
         "netcoreapp3.1": {
           "targetAlias": "netcoreapp3.1",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore.InMemory": {
+              "target": "Package",
+              "version": "[3.1.32, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",
@@ -60,7 +66,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.202\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.414\\RuntimeIdentifierGraph.json"
         }
       }
     }
